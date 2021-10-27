@@ -1,0 +1,130 @@
+body{
+    margin:0;
+    padding-top:800px;
+    
+}
+.profile{
+    width: 170px;
+
+    margin-bottom: 50px;
+    border-radius: 50%;
+    
+}
+#welcome{
+    position: absolute;
+        overflow: hidden;
+    height: 800px;
+    color: white;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    opacity: 0.83;
+    background:linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display: table;
+    z-index: 9;
+    
+        
+        
+}
+.menu{
+    background-color: white;
+    width: 100%;
+    font-family: sans-serif;
+    position: fixed;
+    top: 0px;
+     z-index: 10;
+    cursor: pointer;
+        
+}
+.links{
+    display: inline;
+    color: aqua;
+    
+    
+    padding-right: 25px;
+    padding-left: 35px;
+    font-size: 20px;
+    font-family: fantasy;
+}
+.links:hover{
+    background-color: antiquewhite;
+    font-size:25px;
+    text-decoration: underline;
+    
+    
+}
+#name{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 30px;
+    line-height: 1.2;
+}
+h1{
+    font-size: 40px;
+    font-family: fantasy;
+    font-weight: 300;
+    
+}
+.parallax- innner{
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+h2{
+    font-size: 30px;
+    font-family: fantasy;
+    font font-weight: 300;
+    line-height: 1.2;
+    
+    
+}
+
+#bio{
+    padding: 50px;
+    font-size: 40px;
+    text-align: center;
+    
+}
+.line{
+    height: 6px;
+    background-color: cyan;
+    width: 70px;
+    margin: 8px auto;
+    
+        
+}
+p{
+    max-width: 400px;
+    margin: 25px auto;
+    line-height: 1.3;
+    font-size: 17px;
+}
+html{
+  scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+    text-shadow: 2px 2px red;
+    
+}
+#writting a{
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: aqua !impotant;
+    
+    
+}
+#contact iframe{
+    width: 100%;
+    
+}
+.contact_1 a{
+    color: deepskyblue;
+    text-shadow: none;
+}
+.contact_1 h3{
+    display: inline;
+}
